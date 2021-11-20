@@ -88,7 +88,7 @@
     .img-profile {
         border-radius: 50%;
         margin: auto;
-        background-image: url(/src/img/Profile.png), linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        background-image: url(../img/Profile.png), linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
         background-size: cover;
         background-position: top center;
         width: 250px;
