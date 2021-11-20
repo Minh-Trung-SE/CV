@@ -1,0 +1,136 @@
+@media (min-width: 68.643em) {
+    .bg-home::after {
+        content: "";
+        position: absolute;
+        height: 200%;
+        width: 100%;
+        transform: rotate(-15deg);
+        left: -83%;
+        top: -50%;
+        z-index: 2;
+        background-color: #72B626;
+    }
+
+    .home {
+        margin: 40px;
+    }
+
+    .img-profile {
+        border-radius: 30px;
+        width: 35%;
+        box-shadow: 0 0 7px rgb(0 0 0 / 90%);
+        height: calc(100vh - 80px);
+    }
+
+    .intro-profile {
+        width: 65%;
+    }
+
+    .nav-tab {
+        right: 20px;
+        z-index: 10;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .tab-item-box:hover .tab-icon {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    /* project */
+    .project-item {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 68.571em) {
+    .table__none {
+        display: none;
+    }
+
+    .home-wrapper {
+        margin-bottom: 82px;
+    }
+
+
+    .nav-tab {
+        left: 0;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+
+    .mg-bt-62 {
+        width: 100%;
+        margin-bottom: 62px;
+    }
+
+    .tab-item {
+        margin: 6px 0;
+    }
+
+    .list-tab {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .tab-desc {
+        display: none;
+    }
+
+    .home {
+        margin: 20px;
+    }
+
+    .img-profile {
+        border-radius: 50%;
+        margin: auto;
+        background-image: url(/src/img/Profile.png), linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        background-size: cover;
+        background-position: top center;
+        width: 250px;
+        height: 250px;
+        box-shadow: 0 0 7px rgb(0 0 0 / 90%);
+    }
+
+    .intro-profile {
+        width: 100%;
+
+    }
+
+    .intro-profile__caption {
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        margin: 32px 0;
+    }
+
+    /* info */
+    .title-label {
+        text-align: center;
+    }
+
+    .info-details, .info-img-wrapper {
+        width: 100%;
+    }
+
+    /* edu-skilss */
+    .info-details, .info-dasboard {
+        width: 100%;
+    }
+
+    .project-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 720px) {
+
+    /* project */
+    .project-item {
+        width: 100%;
+    }
+}
