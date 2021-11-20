@@ -6,7 +6,6 @@ function handleShowProject(project){
     listImg = Array.from(listImg);
     numberImg = listImg.length;
 
-    console.log(listImg);
     listImg[currentImg].classList.add('active');
     setInterval(() => {
         if(listImg[currentImg].classList.contains('active')){
